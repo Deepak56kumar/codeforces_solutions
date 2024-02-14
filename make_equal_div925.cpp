@@ -8,7 +8,7 @@ bool solver(vector<int>&nums,int n,ll div){
             else if(nums[i]<div){
                  if(cnt>=div-nums[i]) 
                 cnt-=(div-nums[i]);
-            else return false;
+                else return false;
             }
         }
 return true;
@@ -28,10 +28,10 @@ int main(){
         ll div=sum/n;
         if(sum%n!=0) {
             cout<<"NO"<<endl;
-            return 0;
-        }
+        }else{
         if(solver(nums,n,div)) cout<<"YES"<<endl;
         else cout<<"NO"<<endl;
+        }
 }
 return 0;
 }
