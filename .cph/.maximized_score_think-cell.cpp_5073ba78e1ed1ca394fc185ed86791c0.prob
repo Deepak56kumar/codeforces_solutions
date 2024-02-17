@@ -1,0 +1,1 @@
+{"name":"Local: maximized_score_think-cell","url":"e:\\codeforces_solutions\\maximized_score_think-cell.cpp","tests":[{"id":1708186318390,"input":"3\n1\n2 3\n2\n1 1 2 1\n3\n1 1 1 1 1 1","output":"2\n2\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\codeforces_solutions\\maximized_score_think-cell.cpp","group":"local","local":true}
