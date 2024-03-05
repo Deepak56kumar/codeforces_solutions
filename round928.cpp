@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#define nline "\n"
 using namespace std;
 
 int main(){
@@ -12,8 +13,8 @@ int main(){
             if(s[i]=='A') cntA++;
             else cntB++;
         }
-        if(cntA>cntB) cout<<"A"<<endl;
-        else cout<<"B"<<endl;
+        if(cntA>cntB) cout<<"A"<<nline;
+        else cout<<"B"<<nline;
     }
 
 return 0;
